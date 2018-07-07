@@ -1,0 +1,6 @@
+[config]
+name="random"
+path="Random"
+guiname="Random country"
+author="tukkek"
+description="Randomly generated country"

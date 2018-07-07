@@ -1,0 +1,83 @@
+
+[config]
+currency="$"
+population=32112
+economic_cycle_start=0.75
+min_income=8010
+max_income=154171
+min_gdp=541906
+max_gdp=2214416
+wealth_mod=3.96
+starting_debt=542243
+name=randomia
+guiname="Randomia #1"
+names_file="data/names/australianames.txt"
+term_length=16
+max_terms=-1
+details_image="randomia_details.jpg"
+description="Randomia is generated based on country parameter ranges from official mission files."
+flag="flag_randomia.jpg"
+apathy=0.32
+jobtitle=Prime Minister
+GUID=7
+
+[options]
+HURRICANES
+FOXES
+
+[stats]
+Population:="?"
+Size:="?"
+Life expectancy:="?"
+Gini(inequality):="?"
+GDP per capita:="?"
+Poverty:="?"
+Ethnicity:="?"
+Religion:="?"
+Vegemite Consumption:="?"
+Obesity Rate:="?"
+Big Mac Index:="?"
+
+[policies]
+AgricultureSubsidies=0.6
+AirlineTax=0.12
+AlcoholTax=0.28
+BorderControls=0.42
+CCTVCameras=0.64
+CapitalGainsTax=0.38
+CarTax=0.3
+CarbonTax=0.4
+ChildBenefit=0.79
+CleanEnergySubsidies=0.37
+CommunityPolicing=0.55
+CorporationTax=0.38
+ForeignAid=0.23
+IncomeTax=0.54
+InheritanceTax=0.39
+IntelligenceServices=0.77
+JuryTrial=0.65
+LabourLaws=0.8
+LegalAid=0.74
+MaternityLeave=0.73
+Narcotics=0.01
+OrganicSubsidy=0.7
+PetrolTax=0.28
+PoliceForce=0.77
+PollutionControls=0.65
+PropertyTax=0.3
+RaceDiscriminationAct=0.74
+RailSubsidies=0.75
+SalesTax=0.26
+SchoolBuses=0.75
+SchoolPrayers=0.12
+ScienceFunding=0.62
+StateHealthService=0.23
+StatePensions=0.55
+StateSchools=0.42
+Tasers=0.42
+TechnologyColleges=0.69
+TechnologyGrants=0.75
+UnemployedBenefit=0.39
+UniversityGrants=0.51
+
+
