@@ -126,29 +126,40 @@ def getpolicies():
             
 i=1
 allowbig=chancein(6) #USA has pretty crazy config
+minincome=0
+maxincome=0
+mingdp=0
+maxgdp=0
 
+while minincome>=maxincome:
+    minincome=r(8000,8343)
+    maxincome=r(150000,156431)
+while mingdp>=maxgdp:
+    mingdp=r(498400,2021093 if allowbig else 882500)
+    maxgdp=r(1495200,6063280 if allowbig else 2627500)
+    
 RANDOMIA=f'''
 [config]
 currency="$"
 population={r(11131,158334 if allowbig else 40578)}
 economic_cycle_start={r(28,96)/100}
-min_income={r(8000,8343)}
-max_income={r(150000,156431)}
-min_gdp={r(498400,2021093 if allowbig else 882500)}
-max_gdp={r(1495200,6063280 if allowbig else 2627500)}
+min_income={minincome}
+max_income={maxincome}
+min_gdp={mingdp}
+max_gdp={maxgdp}
 wealth_mod={r(1260,23410 if allowbig else 4790)/1000}
 starting_debt={r(267979,3120000 if allowbig else 1080000)}
 name=randomia
 guiname="Randomia #{i}"
-names_file="data/names/braziliannames.txt"
+names_file="Random\\data\\names\\braziliannames.txt"
 term_length={choose([20,20,20,16,16,16,])}
 max_terms={choose([-1,-1,2,-1,-1,2])}
 details_image="randomia_details.jpg"
 description="Randomia is generated based on country parameter ranges from official mission files."
 flag="flag_randomia.jpg"
 apathy={r(31,41)/100}
-jobtitle={choose(["Prime Minister","Prime Minister",])}
-GUID={6+i}
+jobtitle="His Randomness"
+GUID=0
 
 [options]
 {getoptions()}
